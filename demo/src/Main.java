@@ -4,7 +4,7 @@ class dienthoai {
         double gia;
         int soluong;
         void hienthi(){
-            System.out.printf("sản phẩm bạn đang quan tâm la %s - co gia tien %.2f - số lượng mặt hang la %d\n",ten,gia,soluong);
+            System.out.printf("sản phẩm bạn đang quan tâm la %s - co gia tien %.2f - số lượng mặt hang la %d",ten,gia,soluong);
         }
         void kiemtra(){
             if(soluong > 0){
